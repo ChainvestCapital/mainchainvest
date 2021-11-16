@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mainchainvest-dev-182217-authRole",
+      "UnauthRoleArn": "arn:aws:iam::537184948641:role/amplify-mainchainvest-dev-182217-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::537184948641:role/amplify-mainchainvest-dev-182217-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-mainchainvest-dev-182217-deployment",
+      "UnauthRoleName": "amplify-mainchainvest-dev-182217-unauthRole",
+      "StackName": "amplify-mainchainvest-dev-182217",
+      "StackId": "arn:aws:cloudformation:eu-north-1:537184948641:stack/amplify-mainchainvest-dev-182217/c19a5860-4701-11ec-947c-0a1f5368d8a2",
+      "AmplifyAppId": "dudcpj2pvk16t"
+    }
+  }
+}
