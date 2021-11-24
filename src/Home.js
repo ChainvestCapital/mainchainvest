@@ -23,50 +23,6 @@ import Mobile_Home_Projekt_Box from "./MobileComponents/Mobile_Home_Projekte_Box
 Amplify.configure(awsExports);
 
 function Home() {
-  useEffect(() => {
-    document.title = "Home";
-  }, []);
-
-  const [ProjekteArray, setProjekteArray] = useState([]);
-  const [DreierProjekteArray, setDreierProjekteArray] = useState([]);
-  const [ViererProjekteArray, setViererProjekteArray] = useState([]);
-
-  const fetchProjekte = async () => {
-    try {
-      const ProjekteData = await API.graphql(graphqlOperation(listProjekts));
-
-      const ProjekteList = ProjekteData.data.listProjekts.items;
-      setProjekteArray(ProjekteList);
-      console.log(ProjekteList);
-      builddreierArray(ProjekteList);
-      buildViererProjekteArray(ProjekteList);
-    } catch (error) {
-      console.log(error);
-    }
-  };
-  const [helping1, sethelping1] = useState([]);
-  function builddreierArray(GanzesArray) {
-    for (var i = 0; i < 3; i++) {
-      console.log(i);
-      helping1.push(GanzesArray[i]);
-      console.log(helping1);
-    }
-    setDreierProjekteArray(helping1);
-  }
-  const [helping2, sethelping2] = useState([]);
-  function buildViererProjekteArray(GanzesArray) {
-    for (var i = 0; i < 4; i++) {
-      console.log(i);
-      helping2.push(GanzesArray[i]);
-      console.log(helping2);
-    }
-    setViererProjekteArray(helping2);
-  }
-
-  useEffect(() => {
-    fetchProjekte();
-  }, []);
-
   return (
     <div>
       <div id="Desktop_Wrapper">
