@@ -1,0 +1,117 @@
+#Mobile_Home_Projekt_Box_Wrapper {
+  width: 40vw;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  height: 42vh;
+}
+#Mobile_Home_Projekt_Box_top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Mobile_Home_Projekt_Box_Wrapper_BGImg {
+  width: 42vw;
+  height: 20vh;
+  border-radius: 8px;
+
+  position: relative;
+  z-index: 1;
+}
+#Mobile_Home_Projekt_Box_Wrapper_LogoImg {
+  position: absolute;
+  z-index: 5;
+  width: 25vw;
+}
+
+#Mobile_Home_Projekt_Box_MID {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1005;
+  justify-content: space-between;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+#Mobile_Home_Projekt_Box_MID_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5vw;
+
+  margin: 0;
+  color: #434343;
+}
+#Mobile_Home_Projekt_Box_MID_Kategorie_Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 8vw;
+  height: 8vw;
+  background: #cdf0ea;
+}
+
+#Mobile_Home_Projekt_Box_MID_img {
+  width: 4vw;
+}
+#Mobile_Home_Projekt_Box_BOTTOM {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+}
+#Mobile_Home_Projekt_Box_BOTTOM_Item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2vh;
+}
+#Mobile_Home_Projekt_Box_BOTTOM_Item_H3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2vw;
+
+  margin: 0;
+  color: #434343;
+}
+#Mobile_Home_Projekt_Box_BOTTOM_Item_H5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5vw;
+
+  margin: 0;
+  margin-top: 0.2vh;
+  color: #434343;
+}
+#Mobile_Home_CV_Sec {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+#Mobile_Home_CV_Sec_h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.5vw;
+
+  margin: 0;
+  color: #434343;
+}
+#Mobile_Home_CV_Sec_H5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.5vw;
+
+  margin: 0;
+  margin-top: 2vh;
+  color: #434343;
+}

@@ -1,0 +1,524 @@
+#Desktop_Wrapper {
+  overflow: -moz-scrollbars-vertical;
+  overflow: hidden;
+  margin: 0;
+}
+
+#Div_Home_Top_Section {
+  background: #e0e0e0;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+#Div_Home_Top_Section_Layer {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+#Div_Home_Top_Section_Left {
+  position: relative;
+  z-index: 5;
+  padding-left: 6vw;
+  padding-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  width: 44vw;
+}
+#CV_h1_dark {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.5vw;
+  margin: 0;
+  color: #434343;
+}
+
+#CV_h1_yellow {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.5vw;
+
+  margin: 0;
+  color: #ffb000;
+}
+#CV_h3_dark {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4vw;
+  margin-top: 3vh;
+  width: 38vw;
+
+  color: rgba(0, 0, 0, 0.83);
+}
+#Div_Home_Top_Section_Right {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15vh;
+  padding-left: 10vw;
+  padding-right: 6vw;
+}
+
+#Div_Home_Top_Section_Right_Spalte_left {
+  display: flex;
+  flex-direction: column;
+}
+#Div_Home_Top_Section_Right_Spalte_right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+}
+#Div_Home_Top_Section_Right_TL_Img {
+  width: 13vw;
+}
+#Div_Home_Top_Section_Right_OR_Img {
+  width: 11vw;
+}
+#Div_Home_Top_Section_Right_UR_Img {
+  width: 13vw;
+}
+#Div_Home_Top_Section_Right_TL_Wrapper {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  width: 13vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: 30vh;
+  margin-top: 4vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 1vh;
+}
+#Div_Home_Top_Section_Right_BL_Wrapper {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  margin-top: 3vh;
+  width: 13vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 2vh;
+  height: 38vh;
+}
+#Div_Home_Top_Section_Right_TR_Wrapper {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  width: 13vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: 24vh;
+  display: flex;
+  align-items: center;
+}
+#Div_Home_Top_Section_Right_BR_Wrapper {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  width: 13vw;
+  height: 38vh;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  padding-bottom: 2vh;
+  display: flex;
+  margin-top: 2vh;
+}
+
+#Div_Home_Top_Section_Right_BR_Wrapper_h3 {
+  font-family: Montserrat;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 0.83);
+}
+#Div_Home_Top_Section_Right_BR_Wrapper_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  margin-top: 1vh;
+
+  color: rgba(0, 0, 0, 0.83);
+}
+
+#Div_Home_Top_Section_Layer_Form {
+  position: absolute;
+  width: 1528px;
+  height: 928.56px;
+  left: 967px;
+  top: 486px;
+
+  background: rgba(205, 240, 234, 0.6);
+  filter: blur(150px);
+  left: 50vw;
+  top: 50vh;
+  z-index: 2;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+#Div_Home_Projekt_Section {
+  background: #e0e0e0;
+  width: 100vw;
+  height: 180vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+#Div_Home_Projekte_Section_Layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#home_projekte_li_11 {
+  list-style: none;
+  padding: 0;
+  width: 25vw;
+  margin: 0;
+}
+#home_projekte_ul_id {
+  display: grid;
+  padding: 0;
+
+  grid-template-columns: repeat(3, auto);
+
+  justify-content: space-between;
+  justify-items: stretch;
+
+  width: 88vw;
+  padding-left: 0vw;
+  padding-right: 0vw;
+  height: 66vh;
+  row-gap: 2vh;
+  --columns: 1;
+}
+
+#CV_h2_dark_ma {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 30px;
+  position: relative;
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.83);
+  margin-bottom: 8vh;
+}
+#Div_Home_Projekt_Section_Projekte_Wrapper {
+}
+
+#Div_Home_Projekt_Section_Padding {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  width: 88vw;
+  padding-top: 2vh;
+  z-index: 25;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+#Div_Home_Projekt_Section_ALLE_BUTTON {
+  margin-top: 3vh;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
+  width: 88vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#Div_Home_Projekt_Section_alle_h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 20px;
+  margin: 0;
+  color: #434343;
+}
+
+#Div_Home_Projekte_Section_Layer_Form {
+  position: absolute;
+  width: 976px;
+  height: 757px;
+  left: -500px;
+  top: 45vh;
+  z-index: 15;
+  background: rgba(220, 241, 238, 0.6);
+  filter: blur(150px);
+}
+/* ////////////////////////////////// */
+#Div_Home_CV_Section {
+  background: #e0e0e0;
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  padding-top: 20vh;
+  z-index: 20;
+}
+#Div_Home_CV_Section_LEFT {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6vw;
+  width: 37vw;
+}
+#Div_Home_CV_Section_iNNER {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+}
+#Div_Home_CV_Section_LEFT_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  color: #434343;
+}
+#Div_Home_CV_Section_LEFT_h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4vw;
+  position: relative;
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.83);
+  margin: 0;
+}
+
+#Div_Home_CV_Section_LEFT_BUTTON_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4vw;
+  margin-top: 3vh;
+}
+
+#Div_Home_CV_Section_RIGHT {
+  width: 49vw;
+  display: flex;
+}
+#Div_Home_CV_Section_RIGHT_h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4vw;
+  margin: 0;
+}
+#Div_Home_CV_Section_Layer {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+#Mobile_Home_Wrapper {
+  background: #e0e0e0;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  z-index: 1;
+  height: 370vh;
+}
+
+#Mobile_Home_Layer {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#Mobile_Home_Wrapper_Content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding-right: 6vw;
+  padding-left: 6vw;
+  width: 88vw;
+  z-index: 3;
+}
+
+#Mobile_Home_Top_Sec {
+  display: flex;
+  flex-direction: column;
+  padding-top: 16vh;
+}
+
+#Mobile_Home_Top_Sec_H2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12vw;
+
+  margin: 0;
+  color: #434343;
+}
+#Mobile_Home_Top_Sec_H5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vw;
+
+  margin: 0;
+  margin-top: 2vh;
+  color: #434343;
+}
+#Mobile_Home_Top_Sec_H2_yellow {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12vw;
+
+  margin: 0;
+  color: #ffb000;
+
+  margin-top: 0vh;
+}
+#Mobile_Home_Projekt_Sec {
+  display: flex;
+  flex-direction: column;
+}
+#Mobile_Home_CV_Sec {
+  display: flex;
+  flex-direction: column;
+}
+#Mobile_Home_Top_Wertpapiere {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: row;
+}
+#Mobile_Home_Top_Kachel {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  width: 56vw;
+  height: 38vh;
+  position: relative;
+  z-index: 5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#Mobile_Home_Top_Kachel_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6vw;
+
+  margin: 0;
+  color: #434343;
+}
+#Mobile_Home_Top_Kachel_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.3vw;
+
+  margin: 0;
+  margin-top: 2vh;
+  color: #434343;
+}
+#Mobile_Home_Top_Wertpapiere_Right {
+  position: relative;
+  width: 20vw;
+  height: 25vh;
+}
+#Mobil_KV {
+  width: 28vw;
+  top: 22vh;
+  position: absolute;
+  left: 4vw;
+}
+#Mobil_IT {
+  width: 35vw;
+  top: 4vh;
+  left: -8vw;
+  position: absolute;
+  z-index: 4;
+}
+/*********************************************************/
+#Mobile_Home_Projekt_Sec {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 15vh;
+}
+
+#Mobile_Home_Projekt_h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.5vw;
+
+  margin: 0;
+  color: #434343;
+}
+#Mobile_Home_Projekt_Sec_Grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  row-gap: 2vh;
+  column-gap: 2vw;
+  padding: 0;
+}
+#home_mobil_projekte_li_11 {
+  list-style: none;
+  padding: 0;
+  width: 44vw;
+  margin: 0;
+}
+#Mobile_Home_Projekt_Alle {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 8vh;
+  justify-content: center;
+  border-radius: 12px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#Mobile_Home_Projekt_Alle_H3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5.5vw;
+  text-align: center;
+  margin: 0;
+  color: #434343;
+}

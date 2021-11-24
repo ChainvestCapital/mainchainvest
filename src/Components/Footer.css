@@ -1,0 +1,113 @@
+#Footer_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(205, 240, 234, 0.41);
+
+  width: 99vw;
+  height: 30vh;
+  padding-top: 4vh;
+  position: relative;
+  overflow-x: hidden;
+  margin-top: 10vh;
+}
+
+#Footer_top {
+  display: flex;
+  flex-direction: row;
+
+  padding-right: 6vw;
+  padding-left: 6vw;
+  width: 88vw;
+}
+#Footer_left {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  padding-right: 3vw;
+}
+
+#Footer_left_h2 {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+  margin-bottom: 3vh;
+}
+#Footer_logo {
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+  width: 15vw;
+}
+
+#Footer_h4 {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+
+#Footer_right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15vw;
+}
+
+#Footer_Spalter {
+  display: flex;
+  flex-direction: column;
+  width: 14vw;
+  align-items: flex-start;
+}
+
+#Footer_Spalte_Überschrift {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+  margin-bottom: 2vh;
+}
+
+#Footer_spalte_button {
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Footer_spalte_h3 {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+#Footer_spalte_h3:hover {
+  color: #ffb000;
+}
+#Footer_Buttom_LEFT {
+  width: 27vw;
+  padding-right: 3vw;
+}
+
+#Footer_Buttom_menue {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15vw;
+}
+
+#Footer_Buttom {
+  display: flex;
+  flex-direction: row;
+  background-color: #cdf0ea;
+  height: 8vh;
+
+  align-items: center;
+  padding-right: 6vw;
+  padding-left: 6vw;
+  margin-top: 4vh;
+}
+#Footer_Buttom_menue_Button {
+  width: 14vw;
+}
